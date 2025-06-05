@@ -1,4 +1,4 @@
-// let score="33abc"
+let score="33abc"
 
 
 // console.log(typeof score);
@@ -53,3 +53,43 @@ let someNumber=54
 let stringNumber= String(someNumber)
 console.log( stringNumber);
 console.log(typeof stringNumber);
+
+
+//*************operations******** 
+
+let val =3
+let negvalue= -val
+console.log(negvalue); //-3
+
+console.log(2+2) //4
+console.log("2"+"2") //22
+console.log("2"+2) //22
+console.log(2**2) //4
+console.log(2**4) //16
+console.log(2-2) //0
+console.log("2"*2) //4
+console.log(2/3) //0.6666666666666666
+
+let str1="Hello "
+let str2="Nirmalya"
+let str3=str1+str2
+console.log(str3) //Hello Nirmalya
+
+console.log("1" - 2) //-1
+console.log("1" + 2) //12
+console.log("1" +2 +2) //122
+console.log(1+2+"2") //32
+console.log(1+2+"2" + 4) //324 
+ 
+
+console.log(+true)
+console.log(true+2)
+
+console.log(+false)
+console.log(+"")
+
+let gameCounter=100
+gameCounter++
+console.log(gameCounter)//101 
+++gameCounter
+console.log(gameCounter)//102
